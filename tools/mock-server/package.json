@@ -1,0 +1,14 @@
+{
+  "name": "bluffroom-mock-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mock Socket.IO server for manual testing of the BluffRoom Flutter app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.8.3"
+  }
+}

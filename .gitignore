@@ -1,0 +1,39 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+coverage/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Android signing secrets — never commit
+android/key.properties
+*.jks
+*.keystore
+
+# Android/Gradle local files
+android/.gradle/
+android/local.properties
+android/app/.cxx/
+
+# iOS (not targeted, keep tree clean if opened on macOS)
+ios/
+macos/
+linux/
+windows/
+web/
+
+# Build artifacts & dependencies (APKs live in build/app/outputs/flutter-apk/)
+dist/
+node_modules/
+
+# Misc
+*.log
+.DS_Store
